@@ -1,2 +1,1 @@
-# Приложение "Заметки"
-# JavaScript + localStorage
+# Notes

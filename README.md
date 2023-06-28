@@ -1,2 +1,2 @@
-Небольшое приложение "Заметки"
-Javascript + localStorage
+# Приложение "Заметки"
+# JavaScript + localStorage

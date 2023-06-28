@@ -39,9 +39,9 @@ function getNoteTemplate(note, index) {
   return `
 	<li class="list-group-item fs-5 p-3 d-flex justify-content-between align-items-center" data-index="${index}">
 		<span class="w-75 ${note.completed ? "text-decoration-line-through" : ""}">${note.title}</span>
-		<span>
-			<span class="btn btn-small btn-${note.completed ? "warning" : "success"}" data-index="${index}" data-type="toggle">&check;</span>
-			<span class="btn btn-small btn-danger" data-index="${index}" data-type="remove">&times;</span>
+		<span class="d-flex">
+			<span class="m-1 btn btn-small btn-${note.completed ? "warning" : "success"}" data-index="${index}" data-type="toggle">&check;</span>
+			<span class="m-1 btn btn-small btn-danger" data-index="${index}" data-type="remove">&times;</span>
 		</span>
 	</li>
 	`;
